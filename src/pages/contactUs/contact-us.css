@@ -1,0 +1,19 @@
+#hero {
+  background-image: url('../../assets/images/contact-hero.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"]+label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  
+}
+input[type="checkbox"]+label::before {
+  content: "";
+  @apply absolute top-0 left-0 border border-primary100 rounded-full w-6 h-6 bg-input mr-6;
+}

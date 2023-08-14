@@ -1,0 +1,55 @@
+#faqs-hero {
+    background-image: url("https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2020/04/Knowledge-Base2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  @media (max-width: 570px) {
+    #faqs-hero {
+      background-image: url("https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2020/04/Knowledge-Base2.jpg");
+      background-size: center;
+    }
+  }
+  
+  #erq9t3lfd8r21 {
+    animation-name: erq9t3lfd8r21_s_do, erq9t3lfd8r21_s_da;
+    animation-duration: 4000ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes erq9t3lfd8r21_s_do {
+    0% {
+      stroke-dashoffset: 2426.95;
+    }
+  
+    62.500000% {
+      stroke-dashoffset: -400;
+    }
+  
+    100% {
+      stroke-dashoffset: -400;
+    }
+  }
+  
+  @keyframes erq9t3lfd8r21_s_da {
+    0% {
+      stroke-dasharray: 526.95, 2300;
+    }
+  
+    62.500000% {
+      stroke-dasharray: 526.95, 2300;
+    }
+  
+    100% {
+      stroke-dasharray: 526.95, 2300;
+    }
+  }
+  
+  .about-hero-svg {
+    @apply absolute top-[70%] right-[-200px] h-[30rem] z-20;
+    transform: translateY(-60%);
+  }
+  

@@ -1,0 +1,126 @@
+.nav-form {
+  transform-origin: right;
+  transition: all 0.3s cubic-bezier(0, 1, 1, 1);
+  @apply absolute right-0 z-10;
+}
+.is-active {
+  @apply overflow-visible scale-x-100;
+}
+.nav-form.is-active .search-icon {
+  @apply bg-primary100;
+}
+.search-icon {
+  @apply relative flex items-center justify-center rounded-full border-2 border-primary100 cursor-pointer w-10 h-10 text-white duration-300 z-20;
+}
+.transition-ease {
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-delay: 0.5s;
+  transition-property: all;
+}
+
+#hero {
+  background-image: url("https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2020/03/laptop-1024x681.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 570px) {
+  #hero {
+    background-image: url("https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2020/03/laptop-1024x681.jpeg");
+    background-size: center;
+  }
+}
+.item {
+  @apply relative w-full cursor-pointer overflow-hidden;
+}
+.item-gradient {
+  @apply absolute top-0 left-0 right-0 bottom-0 w-full h-full bg-primary-dark opacity-60 group-hover:transition-colors group-hover:duration-[4s] group-hover:opacity-80;
+}
+.item-gradient:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(3, 20, 41, 0.75) 0,
+    rgba(3, 20, 41, 0.25) 50%,
+    rgba(3, 20, 41, 0.25)
+  );
+}
+
+
+
+#erq9t3lfd8r21 {
+  animation-name: erq9t3lfd8r21_s_do, erq9t3lfd8r21_s_da;
+  animation-duration: 4000ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+
+@keyframes erq9t3lfd8r21_s_do {
+  0% {
+    stroke-dashoffset: 2426.95;
+  }
+
+  62.500000% {
+    stroke-dashoffset: -400;
+  }
+
+  100% {
+    stroke-dashoffset: -400;
+  }
+}
+
+@keyframes erq9t3lfd8r21_s_da {
+  0% {
+    stroke-dasharray: 526.95, 2300;
+  }
+
+  62.500000% {
+    stroke-dasharray: 526.95, 2300;
+  }
+
+  100% {
+    stroke-dasharray: 526.95, 2300;
+  }
+}
+
+#erq9t3lfd8r25 {
+  animation-name: erq9t3lfd8r25_s_do, erq9t3lfd8r25_s_da;
+  animation-duration: 4000ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+
+@keyframes erq9t3lfd8r25_s_do {
+  0% {
+    stroke-dashoffset: 0;
+  }
+
+  62.500000% {
+    stroke-dashoffset: 2475;
+  }
+
+  100% {
+    stroke-dashoffset: 2475;
+  }
+}
+
+@keyframes erq9t3lfd8r25_s_da {
+  0% {
+    stroke-dasharray: 526.24, 2300;
+  }
+
+  62.500000% {
+    stroke-dasharray: 526.24, 2300;
+  }
+
+  100% {
+    stroke-dasharray: 526.24, 2300;
+  }
+}
+
+
+
